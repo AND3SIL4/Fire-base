@@ -1,10 +1,12 @@
 /* Estilos generales */
 body {
   font-family: Arial, sans-serif;
-  padding: 20px;
+  padding: 0;
+  margin: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   margin-bottom: 10px;
 }
 
@@ -71,7 +73,8 @@ button:hover {
   border-radius: 5px;
 }
 
-.logout, .unsub {
+.logout,
+.unsub {
   background-color: #f44336;
   padding: 10px 20px;
   color: white;
@@ -79,9 +82,11 @@ button:hover {
   border-radius: 5px;
 }
 
-.logout:hover, .unsub:hover {
+.logout:hover,
+.unsub:hover {
   background-color: #d32f2f;
 }
+
 /* Resto de estilos omitidos por brevedad */
 
 /* Animaciones */
@@ -100,4 +105,11 @@ form {
 
 form:hover {
   transform: translateY(-5px);
+}
+
+.menu{
+  width: 100%;
+  height: 60px;
+  background-color: darkcyan;
+
 }

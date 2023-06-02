@@ -1,65 +1,73 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fire base</title>
-  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <header>
+    <div class="menu">
+      <button class="logout">logout</button>
+    </div>
+  </header>
   <h1>Getting started firebase 9</h1>
   <h2>Firebase Firestore</h2>
 
   <form action="" class="add">
+    <h2>Addition books</h2>
     <label for="title">Title</label>
     <input type="text" name="title" required>
     <label for="author">Author</label>
     <input type="text" name="author" required>
-
     <button>add a new book</button>
   </form>
 
   <form action="" class="delete">
+    <h2>Delete books</h2>
     <label for="id">Documet id</label>
     <input type="text" name="id" required>
-
     <button>delete a book</button>
   </form>
 
   <form class="update">
+    <h2>Upate books</h2>
     <label for="id">Document id</label>
     <input type="text" name="id" required>
-
     <button>update a book</button>
   </form>
 
-  <h2>Firebase Auth</h2>
-
+  <!-- <h2>Firebase Auth</h2> -->
   <form action="" class="signup">
+    <h2>Sign up new users</h2>
     <label for="email">email:</labeel>
-    <input type="email" name="email">
-    <label for="password">password:</labeel>
-    <input type="password" name="password">
+      <input type="email" name="email">
+      <label for="password">password:</labeel>
+        <input type="password" name="password">
 
-    <button>singup</button>
+        <button>singup</button>
   </form>
   <!-- <h2>Login</h2> -->
   <form action="" class="login">
+    <h2>Login users</h2>
     <label for="email">email:</label>
     <input type="text" name="email">
     <label for="password">password:</label>
     <input type="password" name="password">
-
     <button>login</button>
   </form>
 
   <!-- <h2>logout</h2> -->
 
-  <button class="logout">logout</button>
+
 
   <h2>Unsubscribing</h2>
   <button class="unsub">unsubscribe from db/auth changes</button>
 
   <script src="bundle.js"></script>
 </body>
+
 </html>
